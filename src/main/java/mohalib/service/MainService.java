@@ -46,17 +46,17 @@ public class MainService {
 
     public boolean doReserve(ReserveForm reserveForm) {
         Calendar calendar = Calendar.getInstance();
-        //TODO LIST
+        //TODO 请检查这里时间是否需要提前，学校服务器好像经常提前30s启动
         calendar.set(Calendar.HOUR_OF_DAY, 22); //设置22点的时候触发
         calendar.set(Calendar.MINUTE, 30); //设置30分钟的时候触发
         calendar.set(Calendar.SECOND, 0); //设置30秒的时候触发
 
-//        Timer timer = new Timer();
+        Timer timer = new Timer();
         PostData postData = new PostData();
         ReserveTask reserveTask = new ReserveTask(postData, reserveForm);
         reserveTask.run();
-//        timer.schedule(reserveTask, calendar.getTime());
-//        timer.cancel();
+        timer.schedule(reserveTask, calendar.getTime());
+        timer.cancel();
 
         System.out.println("reservation received...");
         return true;
