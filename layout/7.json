@@ -1,0 +1,554 @@
+{
+  "1": {
+    "power": true,
+    "computer": false,
+    "window": true,
+    "id": 5725
+  },
+  "2": {
+    "power": true,
+    "computer": false,
+    "window": false,
+    "id": 5746
+  },
+  "3": {
+    "power": true,
+    "computer": false,
+    "window": false,
+    "id": 5767
+  },
+  "4": {
+    "power": true,
+    "computer": false,
+    "window": false,
+    "id": 5788
+  },
+  "5": {
+    "power": true,
+    "computer": false,
+    "window": true,
+    "id": 5726
+  },
+  "6": {
+    "power": true,
+    "computer": false,
+    "window": false,
+    "id": 5747
+  },
+  "7": {
+    "power": true,
+    "computer": false,
+    "window": false,
+    "id": 5768
+  },
+  "8": {
+    "power": true,
+    "computer": false,
+    "window": false,
+    "id": 5789
+  },
+  "9": {
+    "power": true,
+    "computer": false,
+    "window": true,
+    "id": 5728
+  },
+  "10": {
+    "power": true,
+    "computer": false,
+    "window": false,
+    "id": 5749
+  },
+  "11": {
+    "power": true,
+    "computer": false,
+    "window": false,
+    "id": 5770
+  },
+  "12": {
+    "power": true,
+    "computer": false,
+    "window": false,
+    "id": 5791
+  },
+  "13": {
+    "power": true,
+    "computer": false,
+    "window": false,
+    "id": 5792
+  },
+  "14": {
+    "power": true,
+    "computer": false,
+    "window": false,
+    "id": 5771
+  },
+  "15": {
+    "power": true,
+    "computer": false,
+    "window": false,
+    "id": 5750
+  },
+  "16": {
+    "power": true,
+    "computer": false,
+    "window": true,
+    "id": 5729
+  },
+  "17": {
+    "power": true,
+    "computer": false,
+    "window": true,
+    "id": 5731
+  },
+  "18": {
+    "power": true,
+    "computer": false,
+    "window": false,
+    "id": 5752
+  },
+  "19": {
+    "power": true,
+    "computer": false,
+    "window": false,
+    "id": 5773
+  },
+  "20": {
+    "power": true,
+    "computer": false,
+    "window": false,
+    "id": 5794
+  },
+  "21": {
+    "power": true,
+    "computer": false,
+    "window": true,
+    "id": 5732
+  },
+  "22": {
+    "power": true,
+    "computer": false,
+    "window": false,
+    "id": 5753
+  },
+  "23": {
+    "power": true,
+    "computer": false,
+    "window": false,
+    "id": 5774
+  },
+  "24": {
+    "power": true,
+    "computer": false,
+    "window": false,
+    "id": 5795
+  },
+  "25": {
+    "power": true,
+    "computer": false,
+    "window": false,
+    "id": 5839
+  },
+  "26": {
+    "power": true,
+    "computer": false,
+    "window": false,
+    "id": 5860
+  },
+  "27": {
+    "power": true,
+    "computer": false,
+    "window": false,
+    "id": 5840
+  },
+  "28": {
+    "power": true,
+    "computer": false,
+    "window": false,
+    "id": 5861
+  },
+  "29": {
+    "power": true,
+    "computer": false,
+    "window": false,
+    "id": 5841
+  },
+  "30": {
+    "power": true,
+    "computer": false,
+    "window": false,
+    "id": 5862
+  },
+  "31": {
+    "power": true,
+    "computer": false,
+    "window": true,
+    "id": 5842
+  },
+  "32": {
+    "power": true,
+    "computer": false,
+    "window": true,
+    "id": 5863
+  },
+  "33": {
+    "power": true,
+    "computer": false,
+    "window": false,
+    "id": 5902
+  },
+  "34": {
+    "power": true,
+    "computer": false,
+    "window": false,
+    "id": 5923
+  },
+  "35": {
+    "power": true,
+    "computer": false,
+    "window": false,
+    "id": 5903
+  },
+  "36": {
+    "power": true,
+    "computer": false,
+    "window": false,
+    "id": 5924
+  },
+  "37": {
+    "power": true,
+    "computer": false,
+    "window": false,
+    "id": 5904
+  },
+  "38": {
+    "power": true,
+    "computer": false,
+    "window": false,
+    "id": 5925
+  },
+  "39": {
+    "power": true,
+    "computer": false,
+    "window": true,
+    "id": 5905
+  },
+  "40": {
+    "power": true,
+    "computer": false,
+    "window": true,
+    "id": 5926
+  },
+  "41": {
+    "power": true,
+    "computer": false,
+    "window": false,
+    "id": 5965
+  },
+  "42": {
+    "power": true,
+    "computer": false,
+    "window": false,
+    "id": 5986
+  },
+  "43": {
+    "power": true,
+    "computer": false,
+    "window": false,
+    "id": 5966
+  },
+  "44": {
+    "power": false,
+    "computer": false,
+    "window": false,
+    "id": 5987
+  },
+  "45": {
+    "power": false,
+    "computer": false,
+    "window": false,
+    "id": 5967
+  },
+  "46": {
+    "power": true,
+    "computer": false,
+    "window": false,
+    "id": 5988
+  },
+  "47": {
+    "power": true,
+    "computer": false,
+    "window": true,
+    "id": 5968
+  },
+  "48": {
+    "power": true,
+    "computer": false,
+    "window": true,
+    "id": 5989
+  },
+  "49": {
+    "power": true,
+    "computer": false,
+    "window": false,
+    "id": 6028
+  },
+  "50": {
+    "power": true,
+    "computer": false,
+    "window": false,
+    "id": 6049
+  },
+  "51": {
+    "power": true,
+    "computer": false,
+    "window": false,
+    "id": 6029
+  },
+  "52": {
+    "power": true,
+    "computer": false,
+    "window": false,
+    "id": 6050
+  },
+  "53": {
+    "power": true,
+    "computer": false,
+    "window": false,
+    "id": 6030
+  },
+  "54": {
+    "power": true,
+    "computer": false,
+    "window": false,
+    "id": 6051
+  },
+  "55": {
+    "power": true,
+    "computer": false,
+    "window": true,
+    "id": 6031
+  },
+  "56": {
+    "power": true,
+    "computer": false,
+    "window": true,
+    "id": 6052
+  },
+  "57": {
+    "power": true,
+    "computer": false,
+    "window": false,
+    "id": 6091
+  },
+  "58": {
+    "power": true,
+    "computer": false,
+    "window": false,
+    "id": 6112
+  },
+  "59": {
+    "power": true,
+    "computer": false,
+    "window": false,
+    "id": 6092
+  },
+  "60": {
+    "power": true,
+    "computer": false,
+    "window": false,
+    "id": 6113
+  },
+  "61": {
+    "power": true,
+    "computer": false,
+    "window": false,
+    "id": 6093
+  },
+  "62": {
+    "power": true,
+    "computer": false,
+    "window": false,
+    "id": 6114
+  },
+  "63": {
+    "power": true,
+    "computer": false,
+    "window": true,
+    "id": 6094
+  },
+  "64": {
+    "power": true,
+    "computer": false,
+    "window": true,
+    "id": 6115
+  },
+  "65": {
+    "power": true,
+    "computer": false,
+    "window": false,
+    "id": 8571
+  },
+  "66": {
+    "power": true,
+    "computer": false,
+    "window": false,
+    "id": 8572
+  },
+  "67": {
+    "power": true,
+    "computer": false,
+    "window": false,
+    "id": 6138
+  },
+  "68": {
+    "power": true,
+    "computer": false,
+    "window": false,
+    "id": 6159
+  },
+  "69": {
+    "power": true,
+    "computer": false,
+    "window": false,
+    "id": 6140
+  },
+  "70": {
+    "power": true,
+    "computer": false,
+    "window": true,
+    "id": 6161
+  },
+  "71": {
+    "power": true,
+    "computer": false,
+    "window": false,
+    "id": 6141
+  },
+  "72": {
+    "power": true,
+    "computer": false,
+    "window": true,
+    "id": 6162
+  },
+  "73": {
+    "power": true,
+    "computer": false,
+    "window": false,
+    "id": 6142
+  },
+  "74": {
+    "power": true,
+    "computer": false,
+    "window": true,
+    "id": 6163
+  },
+  "75": {
+    "power": true,
+    "computer": false,
+    "window": false,
+    "id": 6143
+  },
+  "76": {
+    "power": true,
+    "computer": false,
+    "window": true,
+    "id": 6164
+  },
+  "77": {
+    "power": true,
+    "computer": false,
+    "window": false,
+    "id": 6144
+  },
+  "78": {
+    "power": true,
+    "computer": false,
+    "window": true,
+    "id": 6165
+  },
+  "79": {
+    "power": true,
+    "computer": false,
+    "window": false,
+    "id": 6145
+  },
+  "80": {
+    "power": true,
+    "computer": false,
+    "window": true,
+    "id": 6166
+  },
+  "81": {
+    "power": true,
+    "computer": false,
+    "window": false,
+    "id": 6147
+  },
+  "82": {
+    "power": true,
+    "computer": false,
+    "window": true,
+    "id": 6168
+  },
+  "83": {
+    "power": true,
+    "computer": false,
+    "window": false,
+    "id": 6148
+  },
+  "84": {
+    "power": true,
+    "computer": false,
+    "window": true,
+    "id": 6169
+  },
+  "85": {
+    "power": true,
+    "computer": false,
+    "window": false,
+    "id": 6149
+  },
+  "86": {
+    "power": true,
+    "computer": false,
+    "window": true,
+    "id": 6170
+  },
+  "87": {
+    "power": true,
+    "computer": false,
+    "window": false,
+    "id": 6150
+  },
+  "88": {
+    "power": true,
+    "computer": false,
+    "window": true,
+    "id": 6171
+  },
+  "89": {
+    "power": true,
+    "computer": false,
+    "window": false,
+    "id": 6151
+  },
+  "90": {
+    "power": true,
+    "computer": false,
+    "window": true,
+    "id": 6172
+  },
+  "91": {
+    "power": true,
+    "computer": false,
+    "window": false,
+    "id": 6152
+  },
+  "92": {
+    "power": true,
+    "computer": false,
+    "window": true,
+    "id": 6173
+  }
+}

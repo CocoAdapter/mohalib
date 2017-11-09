@@ -1,0 +1,413 @@
+
+
+@font-face {
+    font-family: 'Fira Sans';
+    src: url('../fonts/FiraSans-Light.eot');
+    src: local('Fira Sans Light'),
+         url('../fonts/FiraSans-Light.eot') format('embedded-opentype'),
+         url('../fonts/FiraSans-Light.woff') format('woff'),
+         url('../fonts/FiraSans-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Fira Sans';
+    src: url('../fonts/FiraSans-Regular.eot');
+    src: local('Fira Sans Regular'),
+         url('../fonts/FiraSans-Regular.eot') format('embedded-opentype'),
+         url('../fonts/FiraSans-Regular.woff') format('woff'),
+         url('../fonts/FiraSans-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'Fira Sans';
+    src: url('../fonts/FiraSans-Bold.eot');
+    src: local('Fira Sans Bold'),
+         url('../fonts/FiraSans-Bold.eot') format('embedded-opentype'),
+         url('../fonts/FiraSans-Bold.woff') format('woff'),
+         url('../fonts/FiraSans-Bold.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+}
+html {
+    overflow: hidden;
+}
+body {
+    background: #455a64;
+    overflow: auto;
+    height: 100vh;
+}
+/***** Typography *****/
+body, p, a, th, td, li, dl, .form-control { font: normal normal 300 18px/2em 'Fira Sans';}
+b, strong, dt { font-weight: 400;}
+h1, h2, h3, h4, h5, h6 { line-height: 2em;}
+/***** Material Shadow *****/
+.shadow-top-down {
+    box-shadow: 0px 8px 8px -4px rgba(0,0,0,0.75);
+    transition: all .5s;
+}
+.shadow-top-down:hover { box-shadow: 0px 0px 8px 0px rgba(0,0,0,0.25);}
+/***** Material Form Elements *****/
+form {
+    max-width: 500px;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+form .form-group { margin-top: 30px;}
+form input.form-control,
+form button.form-control,
+form textarea.form-control ,
+form select.form-control {
+    border: 0px;
+    background-color: transparent;
+    border-bottom: 3px solid #233842;
+    border-radius: 0px;
+    height: 45px;
+}
+form input.form-control:focus,
+form button.form-control:focus,
+form textarea.form-control:focus {
+    border-bottom-color: #c0c0c0;
+    box-shadow: none;
+}
+form button.form-control {
+    background-color: #275267;
+    transition: .5s;
+}
+form button.form-control[type=reset] { background-color: transparent;}
+form button.form-control:hover,
+form button.form-control:focus {
+    border-bottom-color: #275267;
+    background-color: #1c2d35;
+}
+form textarea.form-control { min-height: 120px;}
+form .input-group-addon { 
+    border: 0px;
+    background-color: transparent;
+    border-bottom: 3px solid #233842;
+    vertical-align: top;
+    border-radius: 0;
+    color: white;
+}
+form .input-group-addon i { padding-top: 10px;color: #000;}
+form .checkbox input[type=checkbox] { margin-top: 12px;}
+/***** Images Padding Config *****/
+.img-rounded { border-radius: 4px;}
+.img-n-pargaraph .pull-right {
+    padding: 0;
+    margin: 10px 0 15px 15px;
+}
+.img-n-pargaraph .pull-left {
+    padding: 0;
+    margin: 10px 15px 15px 0;
+}
+.copyrights{
+	text-indent:-9999px;
+	height:0;
+	line-height:0;
+	font-size:0;
+	overflow:hidden;
+}
+/***** Template Header *****/
+header.template_header h1 {
+    font: normal normal 200 50px/150px 'Fira Sans', sans-serif;
+    text-align: center;
+    margin-top: 50px;
+    color: #fff;
+}
+header.template_header h1 span {
+    position: relative; 
+    top: -15px;
+}
+/***** Main Menu *****/
+nav.main-menu {
+    top: 130px;
+    right: 100px;
+    z-index: 998;
+    display: none;
+    position: fixed;
+    background: #fff;
+    padding: 15px;
+    border-radius: 5px;
+    border: 1px solid rgba(37,58,68,.15);
+}
+nav.main-menu a:link, nav.main-menu a:hover, nav.main-menu a:focus, nav.main-menu a { 
+    color: #455a64;
+    text-align: left;
+    font: normal normal 400 18px/30px 'Fira Sans', sans-serif;
+    padding: 10px 50px 10px 30px;
+    border-radius: 0;
+}
+.show-menu {
+    position: fixed;
+    z-index: 999;
+    top: 50px;
+    right: 100px;
+    text-align: center;
+}
+.show-menu a:hover, .show-menu a {
+    font: normal normal 100 100px/70px 'Fira Sans', sans-serif;
+    border: 1px solid rgba(37,58,68,.15);
+    text-decoration: none;
+    border-radius: 50px;
+    background: #fff;
+    display: block;
+    color: #455a64;
+    width: 70px;
+    height: 70px;
+    padding: 0px;
+    outline: none;
+}
+/***** Home *****/
+#templatemo_home {
+    background: #154558 url(../images/full_1.jpg) fixed;
+    /*background:  url(../images/.jpg) fixed;*/
+    background-size: cover;
+    min-height: 100vh;
+    padding-bottom: 130px;
+    color: #fff;
+}
+#templatemo_home .templatemo_home_inner_wapper {
+    width: 100%;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+#templatemo_home h1 {
+    margin-top: 20vh;
+    font: normal normal 400 70px/80px 'Fira Sans', sans-serif;
+}
+#templatemo_home h2 {
+    font: normal normal 100 36px/40px 'Fira Sans', sans-serif;
+}
+#templatemo_home p {
+    margin: 50px 0 50px 0;
+    font: normal normal 100 18px/40px 'Fira Sans', sans-serif;
+}
+#templatemo_home p a {
+    background-color: rgba(255,255,255,.6);
+    border-bottom: 1px dotted #000;
+    text-decoration: none;
+    padding: 5px;
+    color: #000;
+}
+#templatemo_home p a:hover {
+    background-color: rgba(255,255,255,.75);
+    border-bottom: 0px dotted #000;
+}
+#templatemo_home a.btn_wapper {
+    margin-bottom: 150px;
+}
+#templatemo_home a.btn {
+    font: normal normal 300 18px/60px 'Fira Sans', sans-serif;
+    margin-bottom: 30px;
+    border-radius: 0px;
+    background: #fff;
+    height: 63px;
+    color: #000;
+    padding: 0;
+}
+#templatemo_home form input.form-control,
+#templatemo_home form select.form-control { border-bottom: 3px solid #fff;color: #fff;}
+#templatemo_home form input.form-control:focus { border-bottom-color: #275267;}
+#templatemo_home form input.form-control.placeholder {color:#fff;}
+
+/***** Features *****/
+#templatemo_features {
+    background: #455a64 url(../images/pattern_bg.png) fixed;
+    padding-bottom: 130px;
+}
+#templatemo_features p {
+    padding-bottom: 30px;
+    text-align: center;
+}
+#templatemo_features .feature-box {
+    transition: all .5s;
+    background: transparent;
+    padding: 40px 0 40px 0;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+#templatemo_features .feature-box:hover {
+    padding: 0;
+    color: #fff;
+}
+#templatemo_features .feature-box .feature-box-inner {
+    box-shadow: inset 0px 0px 0 10px #cecece;
+    border-bottom: 10px solid #cecece;
+    border-top: 10px solid #cecece;
+    transition: all .5s;
+    background: #fff;
+    padding: 20px;
+    margin: auto;
+}
+#templatemo_features .feature-box:hover .feature-box-inner {
+    box-shadow: inset 0px 0px 0px 0px #cecece;
+    border-bottom: 10px solid #3d799f;
+    border-top: 10px solid #3d799f;
+    padding: 60px 20px 60px 20px;
+    background: #3399cc;
+}
+#templatemo_features .feature-box p {
+    max-width: 250px;
+    min-height: 260px;
+    line-height: 32px;
+    padding-top: 30px;
+    font-size: 18px;
+    margin: auto;
+}
+#templatemo_features .feature-box .feature-box-icon {
+    border-radius: 0px;
+    text-align: center;
+    padding-top: 50px;
+    font-size: 56px;
+    color:#233842;
+}
+/***** Download *****/
+#templatemo_download { 
+    background: url(../images/download_background.jpg) fixed;
+}
+#templatemo_download h2 {
+    font: normal normal 100 100px/150px 'Fira Sans', sans-serif;
+    text-align: center;
+    color: #fff;
+}
+#templatemo_download p {
+    text-align: center;
+    color: #fff;
+}
+#templatemo_download a {
+    margin: 50px auto 100px auto;
+    display: block;
+    width: 260px;
+}
+#templatemo_download .templatemo_download_text_wapper {
+    width: 100%;
+    max-width: 550px;
+    margin: auto;
+}
+/***** Element *****/
+#templatemo_element .container {
+    background-color: #fff;
+    margin-top: 40px;
+    margin-bottom: 80px;
+    padding-bottom: 40px;
+    border-radius: 5px;
+}
+#templatemo_element header h1 { color: #000;}
+#templatemo_element #element-icon-wapper {
+    overflow: hidden;
+    border-radius: 5px;
+}
+#templatemo_element #element-icon-wapper > div {
+    background-color: rgba(0,0,0,.05);
+    padding-bottom: 5px;
+    padding-top: 5px;
+    text-align: center;
+    line-height: 40px;
+    font-size: 25px;
+}
+#templatemo_element #element-icon-wapper > div:hover {
+    transition: .5s;
+    background-color: rgba(0,0,0,.2);
+}
+#templatemo_element #element-icon-wapper a { color: #000;}
+#templatemo_element #img-grid-wapper > div { padding: 5px;}
+/***** Contact *****/
+#templatemo_contact {
+    background: #455a64 url(../images/pattern_bg.png) fixed;
+    color: #fff;
+}
+#templatemo_contact header h1 { color: #fff;}
+#templatemo_contact p, #templatemo_contact a  {
+    line-height: 2.5em;
+    color: #fff;
+}
+#templatemo_contact form .form-group { margin-top: 30px;}
+#templatemo_contact form input.form-control,
+#templatemo_contact form button.form-control,
+#templatemo_contact form textarea.form-control ,
+#templatemo_contact form select.form-control { border-bottom: 3px solid #fff;color: #fff;}
+#templatemo_contact form input.form-control:focus,
+#templatemo_contact form button.form-control:focus,
+#templatemo_contact form textarea.form-control:focus { border-bottom-color: #275267;}
+#templatemo_contact form textarea.form-control { min-height: 120px;}
+#templatemo_contact form .input-group-addon { border-bottom: 3px solid #fff;}
+#templatemo_contact form .input-group-addon i { color: #fff;}
+#templatemo_contact .social {
+    margin: 0px auto 40px auto;
+    text-align: center;
+    max-width: 500px;
+    width: 100%;
+}
+#templatemo_contact .social li {
+    margin-left: 0;
+    width: 25%;
+}
+#templatemo_contact .social a {
+    margin: 50px auto 4px auto;
+    background-color: #fff;
+    border-radius: 50px;
+    padding-top: 15px;
+    font-size: 40px;
+    line-height: 40px;
+    transition: .5s;
+    display: block;
+    height: 70px;
+    color: #fff;
+    width: 70px;
+}
+#templatemo_contact .social a:hover {
+    transform: rotate(360deg);
+    color: #223741;
+}
+#templatemo_contact .social .social-facebook { background: #4a6fb5;}
+#templatemo_contact .social .social-twitter { background: #28a9e0;}
+#templatemo_contact .social .social-youtube { background: #f86d70;}
+#templatemo_contact .social .social-instagram { background: #cab9a9;}
+/***** Footer *****/
+footer {
+    padding: 20px 0 16px 0;
+    text-align: center;
+    background: #fff;
+}
+.footer-copyright p {
+    margin:20px auto 20px auto;
+    text-align: center;
+    line-height: 32px;
+    color: #666;
+}
+.footer-copyright a { 
+    border-bottom: 1px dotted #fff;
+    color: #666;
+}
+.footer-copyright a:hover {
+    color: #000;
+    border: 0;
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    .show-menu {right: 50px;}
+    nav.main-menu {right: 50px;}
+}
+@media (max-width: 991px) {
+    .show-menu {right: 30px;}
+    nav.main-menu {right: 30px;}
+}
+@media (max-width: 767px) {
+    #templatemo_download h2 {font-size: 70px;}
+    #templatemo_home h2 {font-size: 26px;}
+}
+@media (max-width: 400px) {
+    nav.main-menu {right: 10px;}
+    .show-menu {right: 10px;}
+    #templatemo_contact .social a {
+        padding: 18px;
+        font-size: 25px;
+        line-height: 20px;
+        height: 60px;
+        width: 60px;
+    }
+}
